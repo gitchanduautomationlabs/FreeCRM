@@ -190,4 +190,13 @@
 
 
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>pl.project13.maven</groupId>
+				<artifactId>git-commit-id-plugin-parent</artifactId>
+				<version>4.0.1-SNAPSHOT</version>
+			</plugin>
+		</plugins>
+	</build>
 </project>
